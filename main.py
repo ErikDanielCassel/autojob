@@ -4,17 +4,22 @@ from smtplib import SMTP_SSL
 from getpass import getpass
 import requests, json
 
-#variables
-url = 'https://jobsearch.api.jobtechdev.se'
-url_for_search = f"{url}/search"
 
+#Change these to you personal information
 server = 'mailout.telia.com'
 port = 465
 user = 'erik.cassel@telia.com'
-#password = getpass()
-sender = user
-reciever = 'erik.cassel@telia.com'
+#password = getpass() #uncomment this if you need to log in with a password, I don't need to for some weird reason TODO Make this uncomment make the sendMail function send a 
 introFile = "personligtbrevVildmark.txt"
+CurriculumVitae = "cv final.pdf"
+
+#variables
+url = 'https://jobsearch.api.jobtechdev.se'
+url_for_search = f"{url}/search"
+sender = user
+
+#testing variables
+reciever = 'erik.cassel@telia.com'
 
 #constuct message
 message= EmailMessage(policy=SMTP)
