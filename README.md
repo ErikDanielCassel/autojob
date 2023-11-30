@@ -12,7 +12,7 @@ pip install requests
 ## Usage
 Copy your cv and personal letter into the same folder as main.py.
 Edit the variables:
-  '''python
+'''python
 #Change these to you personal information
 server = 'mailout.telia.com' #your email server
 port = 465 #propably doesn't need to be changed but check on your email providers website
