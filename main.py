@@ -10,7 +10,8 @@ server = 'mailout.telia.com'
 port = 465
 user = 'erik.cassel@telia.com'
 #password = getpass() #uncomment this if you need to log in with a password, I don't need to for some weird reason TODO Make this uncomment make the sendMail function send a 
-introFile = "personligtbrevVildmark.txt"
+introFile = "personligtbrevVildmark.txt" #The text you want in the email
+personligtBrev = ""
 CurriculumVitae = "cv final.pdf"
 
 #variables
