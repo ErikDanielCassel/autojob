@@ -13,6 +13,8 @@ user = 'erik.cassel@telia.com'
 introFile = "personligtbrevVildmark.txt" #The text you want in the email
 personligtBrev = ""
 CurriculumVitae = "cv final.pdf"
+quarry = "it" #search term for the job application quarry
+
 
 #variables
 url = 'https://jobsearch.api.jobtechdev.se'
