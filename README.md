@@ -10,9 +10,9 @@ pip install requests
 ```
 
 ## Usage
-Copy your cv and personal letter into the same folder as main.py.
-Edit the variables:
-'''python
+Copy your cv and personal letter into the same folder as main.py. <br>
+Then edit the variables:
+```python
 #Change these to you personal information
 server = 'mailout.telia.com' #your email server
 port = 465 #propably doesn't need to be changed but check on your email providers website
@@ -21,7 +21,7 @@ introFile = "personligtbrevVildmark.txt" #The text you want in the email
 personligtBrev = "personalLetter.pdf"
 CurriculumVitae = "cv.pdf"
 quarry = "it" #search term for the job application quarry
-'''
+```
 Open the directory with main.py in a terminal and run:
 ```powershell
 python main.py
