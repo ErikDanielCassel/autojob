@@ -1,5 +1,5 @@
 # autojob
-!!Not finished or functional, I have still not implemented the actual sending of applications!!
+!!Not finished or functional, I have still not implemented the actual sending of applications!!<br>
 Automatically sends you cv and personal letter to up to 2100 job adds' email on [https://arbetsformedlingen.se/platsbanken/](https://arbetsformedlingen.se/platsbanken/) that fit you querry
 ## Installation
 
